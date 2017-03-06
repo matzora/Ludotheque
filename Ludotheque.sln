@@ -1,9 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
-VisualStudioVersion = 14.0.25420.1
+VisualStudioVersion = 14.0.25123.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ludotheque", "Ludotheque\Ludotheque.csproj", "{63C5380A-D2E5-46E8-979B-784B87A09B54}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ludotheque", "Ludotheque\Ludotheque.csproj", "{3A71D62F-2781-43E2-B69F-857F0F2298AC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ludotheque.Tests", "Ludotheque.Tests\Ludotheque.Tests.csproj", "{3524EDA4-5F2D-4E96-A637-0F6FD7349107}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,10 +13,14 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{63C5380A-D2E5-46E8-979B-784B87A09B54}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{63C5380A-D2E5-46E8-979B-784B87A09B54}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{63C5380A-D2E5-46E8-979B-784B87A09B54}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{63C5380A-D2E5-46E8-979B-784B87A09B54}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3A71D62F-2781-43E2-B69F-857F0F2298AC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3A71D62F-2781-43E2-B69F-857F0F2298AC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3A71D62F-2781-43E2-B69F-857F0F2298AC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3A71D62F-2781-43E2-B69F-857F0F2298AC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3524EDA4-5F2D-4E96-A637-0F6FD7349107}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3524EDA4-5F2D-4E96-A637-0F6FD7349107}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3524EDA4-5F2D-4E96-A637-0F6FD7349107}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3524EDA4-5F2D-4E96-A637-0F6FD7349107}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
