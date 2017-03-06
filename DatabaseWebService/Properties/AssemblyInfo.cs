@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // Les informations générales relatives à un assembly dépendent de 
 // l'ensemble d'attributs suivant. Changez les valeurs de ces attributs pour modifier les informations
 // associées à un assembly.
-[assembly: AssemblyTitle("LudothequeWebService")]
+[assembly: AssemblyTitle("DatabaseWebService")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("LudothequeWebService")]
+[assembly: AssemblyProduct("DatabaseWebService")]
 [assembly: AssemblyCopyright("Copyright ©  2017")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // Le GUID suivant est pour l'ID de la typelib si ce projet est exposé à COM
-[assembly: Guid("e6d0d576-6c3d-4cee-871a-af04be870919")]
+[assembly: Guid("73bc30b1-f936-45ef-b80a-2fe307f283cd")]
 
 // Les informations de version pour un assembly se composent des quatre valeurs suivantes :
 //
