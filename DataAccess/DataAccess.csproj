@@ -51,6 +51,7 @@
   <ItemGroup>
     <Compile Include="DataAccess.cs" />
     <Compile Include="EntityDbContext.cs" />
+    <Compile Include="DatabaseUsers.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
