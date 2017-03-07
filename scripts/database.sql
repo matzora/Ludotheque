@@ -25,7 +25,7 @@ CREATE TABLE IF NOT EXISTS `Ludotheque`.`Game` (
   INDEX `fk_Game_Site1_idx` (`Site_idSite` ASC),
   CONSTRAINT `fk_Game_Site1`
     FOREIGN KEY (`Site_idSite`)
-    REFERENCES `mydb`.`Site` (`idSite`)
+    REFERENCES `Ludotheque`.`Site` (`idSite`)
     ON DELETE NO ACTION
     ON UPDATE NO ACTION);
 
@@ -35,7 +35,6 @@ CREATE TABLE IF NOT EXISTS `Ludotheque`.`Lend` (
   `DateStart` DATE NULL,
   `DateEnd` DATE NULL,
   `DateEndReal` DATE NULL,
-  `Lendcol` VARCHAR(45) NULL,
   INDEX `fk_Lend_User_idx` (`User_idUser` ASC),
   INDEX `fk_Lend_Game1_idx` (`Game_idGame` ASC),
   CONSTRAINT `fk_Lend_User`
@@ -45,7 +44,7 @@ CREATE TABLE IF NOT EXISTS `Ludotheque`.`Lend` (
     ON UPDATE NO ACTION,
   CONSTRAINT `fk_Lend_Game1`
     FOREIGN KEY (`Game_idGame`)
-    REFERENCES `mydb`.`Game` (`idGame`)
+    REFERENCES `Ludotheque`.`Game` (`idGame`)
     ON DELETE NO ACTION
     ON UPDATE NO ACTION);
 
